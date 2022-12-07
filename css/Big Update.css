@@ -40,6 +40,10 @@ ul {
     padding: 0;
 }
 
+.goto-up {
+    display: none;
+}
+
 .goto-up i {
     position: fixed;
     width: 40px;
@@ -47,18 +51,16 @@ ul {
     color: white;
     background-image: linear-gradient(to bottom left, #a81365 30%, rgb(49, 2, 77));
     font-size: 22px;
+    border-radius: 5px;
     right: 50px;
     bottom: 40px;
-    text-align: center;
-    line-height: 40px;
-    border-radius: 10px;
+    cursor: pointer;
     z-index: 500;
 }
 
 @media (max-width: 767px) {
     .goto-up i {
-        right: 30px;
-        bottom: 90px;
+        right: 20px;
     }
 }
 
