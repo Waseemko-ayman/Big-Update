@@ -367,12 +367,6 @@ ul {
     text-transform: uppercase;
 }
 
-@media (max-width: 767px) {
-    .ryse h1 {
-        font-size: 110px;
-    }
-}
-
 .ryse .text {
     text-align: center;
     color: var(--second-color);
@@ -395,6 +389,35 @@ ul {
     text-align: center;
     line-height: 1.8;
     font-size: 20px;
+}
+
+@media (max-width: 767px) {
+    .ryse h1 {
+        font-size: 110px;
+    }
+    .ryse .text h2 {
+        font-size: 20px;
+    }
+    .ryse .text h3 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 426px) {
+    .ryse h1 {
+        font-size: 70px;
+    }
+    .ryse .text {
+        text-align: center;
+        color: var(--second-color);
+        margin: -30px 0 50px;
+    }
+    .ryse .text h2 {
+        font-size: 16px;
+    }
+    .ryse .text h3 {
+        font-size: 35px;
+    }
 }
 /* End Ryse */
 
@@ -425,6 +448,14 @@ ul {
 
 .building .image img:hover {
     transform: translateY(-10px);
+}
+
+@media (max-width: 321px) {
+    .building .image {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
 }
 /* End Building your Website */
 
@@ -876,6 +907,13 @@ ul {
     -o-box-shadow: 0 0 10px #ccc;
 }
 
+@media (max-width: 321px) {
+    .paractical .images {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 @media (min-width: 767px) and (max-width: 991px) {
     .paractical .images .box:nth-of-type(3) {
         margin-top: -200px;
@@ -1024,6 +1062,12 @@ footer {
 @media (max-width: 767px) {
     footer {
         line-height: 1.6;
+    }
+}
+
+@media (max-width: 376px) {
+    footer {
+        font-size: 15px;
     }
 }
 
